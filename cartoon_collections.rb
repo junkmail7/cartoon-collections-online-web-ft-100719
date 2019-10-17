@@ -21,7 +21,7 @@ def find_the_cheese(array)
   x=0
   #while i!=array.size
   while x!=cheese_types.size
-  if array.include(cheese_types[x])
+  if array.include?(cheese_types[x])
   return cheese_types[x]
   else
   return nil
