@@ -17,14 +17,10 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   answer=""
-  array.each do |snack|
-    cheese_types.each do |ischeese|
-      if array.include?(ischeese)
-        answer=snack
-      else
-        answer=nil
-      end
-    end
-  end
+  i=0
+  x=0
+  while i!=array.size
+  while x!=cheese_types.size
+  if array[i].include()
   return answer
 end
