@@ -20,10 +20,8 @@ def find_the_cheese(array)
     cheese_types.each do |ischeese|
       if snack==ischeese
         return snack
-        break
       else
         return nil
-        break
       end
     end
   end
