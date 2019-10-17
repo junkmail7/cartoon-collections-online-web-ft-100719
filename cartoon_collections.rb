@@ -1,5 +1,5 @@
 def roll_call_dwarves(array)
-  i=1
+  i=0
   while i!=array.size
   puts "#{array[i+1]}\n"
   i+=1
