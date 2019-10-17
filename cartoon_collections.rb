@@ -19,7 +19,7 @@ def find_the_cheese(array)
   answer=""
   array.each do |snack|
     cheese_types.each do |ischeese|
-      if array.include
+      if array.include?(ischeese)
         answer=snack
       else
         answer=nil
