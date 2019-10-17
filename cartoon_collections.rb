@@ -16,13 +16,15 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  answer=""
   array.each do |snack|
     cheese_types.each do |ischeese|
       if snack==ischeese
-        return snack
+        answer=snack
       else
-        return nil
+        answer=nil
       end
     end
   end
+  return answer
 end
